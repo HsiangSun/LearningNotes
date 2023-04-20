@@ -1,5 +1,10 @@
 # Helm常用操作
 ---
+## Helm 安装指定版本
+```shell
+helm install traefik traefik/traefik --version 10.19.4
+```
+
 ## Helm 查看资源
 ```shell
 helm list -n <namespace>
